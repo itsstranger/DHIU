@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    overscroll-behavior: none;
+    background: url(./img/roll.jpg);
+    background-attachment: fixed;
+  }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+.banner{
+    min-height: 100vh;
+    min-width: 100vw;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./img/Darul_Huda_Islamic_University_Chemmad.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+.nav{
+    display: flex;
+    height: 126px;
+    width: 1196px;
+    background: #fff;
+    margin: 50px 0;
+    position: fixed;
+    /* position: relative; */
+}
+.navimg{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 300px;
+    margin: 0 0 0 50px;
+}
+.navimg img{
+    width: 100%;
+}
+.marq{
+    position: absolute;
+    top: 10px;
+    left: 582px;
+    background: linear-gradient(90deg,rgb(255, 255, 255), rgba(27,20,100,1));
+    color: #fff;
+    font-size: large;
+    height: 50px;
+    width: 614px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    top: 80px;
+    left: 650px
+}
+.nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1b1464;
+    transition: all 0.2s linear;
+}
+.abmvp{
+    display: flex;
+    justify-content: space-around;
+    min-height: 380px;
+    padding: 40px;
+    align-items: center;
+}
+.mission, .vision, .philosophy{
+    width: 250px;
+    text-align: justify;
+    color: #fff;
+}
+.mission h1, .vision h1, .philosophy h1{
+    text-align: center;
+    font-family: montserrat;
+    text-transform: capitalize;
+}
+.mission p, .vision p, .philosophy p{
+    font-family: sans-serif;
+}
+.navula::after{
+    content: '';
+    width: 2px;
+    background: black;
+    position: absolute;
+    left: -7px;
+    bottom: 0;
+}
+.vsm{
+    background: #1b1464;
+    height: 384px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.vcim img{
+    width: 100%;
+    padding: 5px;
+
+}
+.vcim{
+    background: #fff;
+    width:250px;
+}
+.message{
+    width: 900px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: #1b1464;
+    font-size: larger;
+    font-weight: bold;
+   
+}
+.abb{
+    text-align: center;
+}
+.butn button{
+    cursor: pointer;
+    background-color: transparent;
+    border: transparent;
+    color: #ffffff;
+    font-size: 1.5em;    
+}
+.butn button a{
+    text-decoration: none;
+    color: #fff;
+}
+.butn{
+    padding: 10px;
+}
+footer{
+    min-height: 35vh;
+}
+.qlinks{
+    color: #fff;
+    font-family: sans-serif;
+    margin: 50px 100px;
+    
+
+}
+.qlinks ul li{
+    list-style: none;
+}
+.qlinks ul li a{
+    color:#fff ;
+    text-decoration: none;
+    margin: 10px;
+}
